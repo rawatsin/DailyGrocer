@@ -1,0 +1,17 @@
+.product-actions{
+  display: none;
+}
+
+.product:hover .product-actions{
+  display: flex;
+  transition: 0.5s;
+}
+
+.home-hover, .shop-hover, .stores-hover, .blog-hover, .account-hover, .myaccount-hover, .doc-hover, .megamenu-hover, .lang-hover, .depart-hover{
+  display: none;
+}
+
+.home:hover .home-hover, .shop:hover .shop-hover, .stores:hover .stores-hover, .blog:hover .blog-hover, .account:hover .account-hover, .myaccount:hover .myaccount-hover, .doc:hover .doc-hover, .megamenu:hover .megamenu-hover, .lang:hover .lang-hover, .depart:hover .depart-hover{
+  display: flex;
+  transition: 0.5;
+}
